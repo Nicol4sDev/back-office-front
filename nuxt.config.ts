@@ -11,4 +11,11 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/image',
   ],
+  plugins: [
+    {
+      src: '~/plugins/vue3-particles.ts',
+      mode: 'client',
+    },
+  ],
 })
+
