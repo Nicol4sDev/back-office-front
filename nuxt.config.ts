@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
@@ -8,14 +7,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: [
-    '@nuxt/image',
-  ],
-  plugins: [
-    {
-      src: '~/plugins/vue3-particles.ts',
-      mode: 'client',
-    },
-  ],
+  modules: ['@nuxt/image'],
 })
-
